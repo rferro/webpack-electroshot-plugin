@@ -5,16 +5,14 @@ const path = require('path')
 const _ = require('lodash')
 const execa = require('execa')
 
-export default class WebpackElectroshotPlugin {
-  constructor (options) {
+module.exports = class WebpackElectroshotPlugin {
+  constructor (options = {}) {
     this.options = Object.assign({}, {
-      delay: null,
+      delay: 1000,
       format: 'jpg',
-      out: null,
+      out: '.',
       resolution: '1280',
-      selector: null,
-      url: 'index.html',
-      zoomFactor: null
+      url: 'index.html'
     }, options)
   }
 
