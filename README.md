@@ -17,13 +17,21 @@
 ### npm
 
 ```sh
-npm install --save-dev webpack-electroshot-plugin
+npm install -D webpack-electroshot-plugin
 ```
 
 ### yarn
 
 ```sh
-yarn add --dev webpack-electroshot-plugin
+yarn add -D webpack-electroshot-plugin
+```
+
+## electroshot
+
+```sh
+npm install -D electroshot
+// or global
+npm install -g electroshot
 ```
 
 ## Usage
