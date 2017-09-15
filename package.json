@@ -1,0 +1,29 @@
+{
+  "name": "webpack-electroshot-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin for electroshot.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rferro/webpack-electroshot-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "electroshot",
+    "screenshot"
+  ],
+  "author": "Ricardo Ferro <ricardo.ferro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rferro/webpack-electroshot-plugin/issues"
+  },
+  "homepage": "https://github.com/rferro/webpack-electroshot-plugin#readme",
+  "dependencies": {
+    "execa": "^0.8.0",
+    "lodash": "^4.17.4"
+  }
+}
